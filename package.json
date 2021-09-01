@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/emanmkhareez/exam-online#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "faker": "^5.5.3",
     "socket.io": "^4.2.0",
