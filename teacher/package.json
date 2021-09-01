@@ -1,0 +1,17 @@
+{
+  "name": "teacher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teacher.js",
+  "scripts": {
+    "start": "node teacher.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "socket.io-client": "^4.2.0"
+  }
+}
