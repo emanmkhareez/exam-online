@@ -1,0 +1,18 @@
+<html>
+    <body>
+        eman
+        <img id="img"/>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"> </script>
+        <script>
+        const socket=io.connect('http://localhost:3000')
+        socket.on('image',(data)=>{
+            console.log('data',data)
+            const imageElm=document.getElementById('img')
+            imageElm.src=`data:image/jpeg;base64,${image}`
+        })
+        </script>
+        
+
+
+    </body>
+</html>
